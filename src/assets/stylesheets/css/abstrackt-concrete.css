@@ -1,0 +1,1810 @@
+.navbar {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 1000;
+  border-bottom: 1px solid #000;
+  background-color: #fff;
+}
+
+.logo-nav {
+  display: inline-block;
+  width: 205px;
+  margin: 8px auto 7px;
+  float: none;
+  clear: none;
+  text-align: center;
+}
+
+.main-menu {
+  clear: both;
+  text-align: center;
+}
+
+.nav-menu {
+  display: block;
+  margin: -6px auto -4px;
+  float: none;
+  clear: both;
+  text-align: center;
+}
+
+.main-nav-link {
+  margin-top: 4px;
+  margin-bottom: 13px;
+  padding: 3px 28px 1px;
+  border-style: solid none;
+  border-top-width: 1px;
+  border-top-color: #fff;
+  border-bottom-width: 1px;
+  border-bottom-color: #fff;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 3.4px;
+  text-transform: uppercase;
+}
+
+.main-nav-link:hover {
+  padding-top: 3px;
+  padding-bottom: 1px;
+  border-style: solid none;
+  border-top-width: 1px;
+  border-top-color: #000;
+  border-bottom-width: 1px;
+  border-bottom-color: #000;
+  background-color: #fff;
+  color: #d8965a;
+}
+
+.main-nav-link.w--current {
+  border-top-style: solid;
+  border-top-color: #fff;
+  border-bottom-style: none;
+  border-bottom-color: #fff;
+  color: #d8965a;
+}
+
+.home-section {
+  position: relative;
+  z-index: 0;
+  height: auto;
+  margin-top: 0px;
+}
+
+.custom-kitchen-countertops {
+  display: block;
+  margin: 0px auto 45px;
+  border-style: none;
+  border-top-width: 2px;
+  border-top-color: #d8965a;
+  background-color: #fff;
+}
+
+.about-section {
+  height: auto;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 45px;
+  border-top: 2px solid #d8965a;
+  border-bottom: 1px solid #d8965a;
+  background-image: url('../images/section-background-tile.jpg');
+  background-position: 0px 0px;
+  background-size: 90px;
+  text-align: center;
+}
+
+.contact-santana-matlock {
+  border-style: solid none none;
+  border-width: 2px;
+  border-color: #d8965a;
+  background-image: url('../images/section-background-tile.jpg');
+  background-position: 0px 0px;
+  background-size: 90px;
+}
+
+.h2-section-heading {
+  display: block;
+  margin: 27px auto 5px;
+  clear: both;
+  border-top-color: #d8965a;
+  background-color: transparent;
+  font-family: Lato, sans-serif;
+  color: #d8965a;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.services-of-custom-concrete-products {
+  border-style: none;
+  border-top-width: 2px;
+  border-top-color: #d8965a;
+  background-color: #d8965a;
+  background-image: url('../images/section-background-tile.jpg');
+  background-position: 0px 0px;
+  background-size: 50px;
+}
+
+.h1-section-heading-black {
+  font-family: Varela, sans-serif;
+  color: #d8965a;
+  font-size: 28px;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 5.5px;
+}
+
+.contact-field-title {
+  margin-top: 2px;
+  padding-left: 0px;
+  font-family: Varela, sans-serif;
+  color: #d8965a;
+  font-size: 16px;
+  text-align: left;
+  letter-spacing: 0.5px;
+}
+
+.contact-field-text {
+  margin-bottom: 17px;
+  box-shadow: inset 0 0 8px 0 dimgray;
+}
+
+.contact-field-message {
+  display: inline-block;
+  width: auto;
+  height: 120px;
+  max-height: 120px;
+  max-width: 511px;
+  min-height: 120px;
+  min-width: 511px;
+  margin-right: auto;
+  margin-left: auto;
+  float: left;
+  box-shadow: inset 0 0 8px 0 dimgray;
+  text-align: left;
+}
+
+.contact-submit-button {
+  display: block;
+  margin: 157px auto 1px;
+  padding: 14px 36px;
+  float: none;
+  clear: both;
+  border-radius: 36px;
+  background-color: #d8965a;
+  opacity: 1;
+  font-family: Varela, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: left;
+}
+
+.contact-submit-button:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.contact-form {
+  margin-bottom: 37px;
+  margin-left: 18px;
+  padding-right: 10px;
+  padding-left: 0px;
+  text-align: justify;
+}
+
+.footer-section {
+  background-color: #fff;
+  background-image: url('../images/section-background-tile.jpg');
+  background-position: 0px 0px;
+  background-size: 50px;
+  color: #fff;
+}
+
+.contact-column-2 {
+  padding-right: 0px;
+  padding-left: 22px;
+}
+
+.contact-link {
+  font-family: Varela, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 0px;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  color: #d8965a;
+  text-decoration: underline;
+}
+
+.contact-info-line-div {
+  margin-top: 28px;
+  margin-bottom: 42px;
+}
+
+.contact-row {
+  margin-top: 23px;
+}
+
+.work-slider-arrow {
+  color: #d8965a;
+}
+
+.work-slider {
+  height: 456px;
+  margin-top: 24px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.work-column {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+.contact-personal-field {
+  font-family: Varela, sans-serif;
+  color: #d8965a;
+  letter-spacing: 0.5px;
+}
+
+.contact-title-field {
+  width: 95px;
+  float: left;
+  font-family: Varela, sans-serif;
+  color: #d8965a;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.work-column-1 {
+  padding-right: 0px;
+  padding-left: 8px;
+}
+
+.captcha-field-check-radial {
+  width: 18px;
+  height: 18px;
+  margin-top: 3px;
+  float: left;
+}
+
+.captcha-contain {
+  display: block;
+  margin-top: 13px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 205px;
+  float: left;
+  text-align: right;
+}
+
+.work-lightbox-link {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.work-image {
+  display: inline-block;
+  max-width: 300px;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+.work-image:hover {
+  border: 2px solid #d8965a;
+  opacity: 0.74;
+}
+
+.contact-text {
+  font-family: Varela, sans-serif;
+  color: #fff;
+}
+
+.work-thumb-view {
+  position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+}
+
+.work-thumb-view-div {
+  position: absolute;
+  display: block;
+  width: 300px;
+  margin-top: 52px;
+}
+
+.contact-field-image {
+  margin-top: -8px;
+  margin-right: 5px;
+  margin-bottom: 1px;
+  padding-top: 1px;
+  float: left;
+}
+
+.home-slider {
+  height: 755px;
+  margin-top: -4px;
+}
+
+.arrow {
+  margin-top: 372px;
+}
+
+.video-slider {
+  height: auto;
+}
+
+.slider-mask {
+  height: 848px;
+}
+
+.video-div {
+  height: 3px;
+}
+
+.home-div {
+  position: static;
+  height: 1011px;
+  margin-top: 0px;
+  background-image: url('../images/santana-home-optimized.jpg');
+  background-position: 50% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.abstrakt-concrete-media {
+  height: 613px;
+  margin-top: 0px;
+  padding-top: 0px;
+  border-top: 2px solid #d8965a;
+  background-image: url('../images/media-diy-network.jpg');
+  background-position: 50% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.services-heading {
+  font-size: 19px;
+  text-align: center;
+  letter-spacing: 5.5px;
+}
+
+.h1-black-underline {
+  display: block;
+  height: 1px;
+  margin-right: auto;
+  margin-bottom: 21px;
+  margin-left: auto;
+  background-color: #d8965a;
+  text-align: center;
+}
+
+.h1-white-underline {
+  display: block;
+  height: 1px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+}
+
+.about-santana-matlock-pic {
+  position: static;
+  left: auto;
+  top: 0px;
+  bottom: 0px;
+  display: inline-block;
+  margin: 31px 27px 40px;
+  float: none;
+  clear: both;
+  text-align: center;
+  -webkit-column-count: auto;
+  column-count: auto;
+}
+
+.about-h1 {
+  margin-top: 27px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-weight: 900;
+  text-align: center;
+}
+
+.about-h3 {
+  margin-top: 15px;
+  font-family: Lato, sans-serif;
+  color: #d8965a;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.media-diy-network {
+  display: block;
+  margin: 24px auto 31px;
+}
+
+.about-paragraph {
+  margin-top: 0px;
+  margin-bottom: 16px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 15px;
+  line-height: 28px;
+  text-align: left;
+  text-indent: 30px;
+}
+
+.news-paragraph {
+  margin-top: 4px;
+  margin-bottom: 19px;
+  padding: 16px 22px;
+  background-color: rgba(0, 0, 0, .28);
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.news-diy-logo {
+  display: block;
+  width: 296px;
+  margin: 55px auto 36px;
+  padding-left: 0px;
+}
+
+.services-paragraph {
+  margin-bottom: 16px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 15px;
+  line-height: 21px;
+  text-indent: 22px;
+}
+
+.services-icon {
+  display: block;
+  width: auto;
+  margin: 51px auto 39px;
+}
+
+.services-list {
+  margin: 11px 52px 0px;
+  color: #fff;
+  font-size: 17px;
+}
+
+.abstract-concrete-logo-home {
+  position: relative;
+  left: 0px;
+  top: 31%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0px;
+}
+
+.services-h3 {
+  display: block;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.services-column {
+  margin-bottom: 55px;
+}
+
+.services-quote {
+  color: #d8965a;
+  font-size: 17px;
+}
+
+.services-quotation-mark {
+  font-size: 21px;
+}
+
+.news-p-links {
+  color: #d8965a;
+  text-decoration: none;
+}
+
+.news-p-links:hover {
+  text-decoration: underline;
+}
+
+.news-diy-logo-columns {
+  margin-top: 27px;
+}
+
+.news-diy-logo-link {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.services-icon-handshake {
+  display: block;
+  width: 115px;
+  margin: 59px auto 31px;
+}
+
+.contact-icon-link {
+  float: left;
+}
+
+.footer-text-copyright {
+  display: block;
+  margin: 0px auto;
+  padding-top: 13px;
+  padding-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+}
+
+.footer-text-copyright-link {
+  color: #fff;
+}
+
+.footer-text-copyright-link:hover {
+  color: #d8965a;
+}
+
+.contact-map {
+  width: 388px;
+  height: 259px;
+}
+
+.contact-follow-title {
+  margin-top: 122px;
+  margin-bottom: 1px;
+  padding-bottom: 0px;
+  border-style: none;
+  border-bottom-width: 1px;
+  border-bottom-color: #fff;
+  font-family: Lato, sans-serif;
+  color: #d8965a;
+  font-size: 19px;
+}
+
+.contact-follow-icon {
+  width: 26px;
+  margin-right: 9px;
+}
+
+.contact-follow-link {
+  color: #fff;
+}
+
+.contact-follow-subtitile {
+  width: 98px;
+  margin-top: 3px;
+  margin-left: 0px;
+  float: left;
+  font-family: Varela, sans-serif;
+  color: #d8965a;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.contact-link-block {
+  float: left;
+}
+
+.contact-link-icon {
+  width: 27px;
+  margin-top: -4px;
+  margin-right: 10px;
+  padding-left: 1px;
+}
+
+.contact-follow-connect-underline {
+  height: 1px;
+  margin-bottom: 36px;
+  float: none;
+  background-color: #fff;
+  color: #fff;
+}
+
+.contact-newsletter-form-div {
+  display: block;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  background-color: #d8965a;
+}
+
+.contact-newsletter-container {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.contact-newsletter-submit-button {
+  display: block;
+  margin: 11px auto 20px;
+  padding: 14px 36px;
+  border: 3px solid #fff;
+  border-radius: 36px;
+  background-color: #d8965a;
+  font-family: Varela, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.contact-newsletter-submit-form-button-div {
+  height: 6px;
+  margin-top: -6px;
+  background-color: #fff;
+  background-image: url('../images/section-background-tile.jpg');
+  background-position: 0px 0px;
+  background-size: 50px;
+}
+
+.contact-newsletter-field-label {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.contact-newsletter-text-field {
+  height: 42px;
+  margin-top: 6px;
+  border: 2px solid #000;
+  box-shadow: inset 0 0 8px 0 dimgrey;
+}
+
+.contact-newsletter-h4 {
+  display: block;
+  margin: 20px auto 10px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 19px;
+  text-align: center;
+}
+
+.video-section {
+  border-top: 3px solid #d8965a;
+}
+
+.contact-follow-mobile-div-animate {
+  height: 1px;
+  margin-top: 2px;
+  margin-bottom: 44px;
+  background-color: #fff;
+}
+
+.contact-follow-tile-field-link {
+  margin-right: 9px;
+  font-family: Varela, sans-serif;
+  color: #d8965a;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+.contact-follow-tile-field-link:hover {
+  text-decoration: underline;
+}
+
+.contact-newsletter-form-success-message {
+  background-color: transparent;
+}
+
+.contact-newsletter-form-success-p {
+  margin-top: 16px;
+  font-family: Varela, sans-serif;
+  color: #fff;
+  font-size: 16px;
+}
+
+.contact-newsletter-form-error-message {
+  border: 2px solid #ffa0a0;
+  border-radius: 51px;
+  background-color: #e24d4d;
+}
+
+.contact-newsletter-form-error-message-p {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-family: Varela, sans-serif;
+  color: #fff;
+  font-size: 17px;
+  text-align: center;
+}
+
+.work-slider-mask {
+  padding-bottom: 0px;
+}
+
+.slider-arrow {
+  color: #d8965a;
+  font-size: 50px;
+}
+
+.services-link-p {
+  color: #d8965a;
+  text-decoration: none;
+}
+
+.services-link-p:hover {
+  text-decoration: underline;
+}
+
+.about-p-link {
+  color: #d8965a;
+  text-decoration: none;
+}
+
+.about-p-link:hover {
+  text-decoration: underline;
+}
+
+.footer-made-in-nashville-pic {
+  display: block;
+  width: 108px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 32px;
+}
+
+.footer-h2-made-in-nashville {
+  display: block;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  font-family: 'Great Vibes', cursive;
+  color: #d8965a;
+  font-size: 24px;
+  text-align: center;
+}
+
+.footer-abstrakt-logo {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  float: right;
+  clear: both;
+}
+
+.contact-message-success {
+  margin-right: 9px;
+  background-color: transparent;
+}
+
+.contact-message-success-p {
+  font-family: Varela, sans-serif;
+  color: #d8965a;
+  font-size: 19px;
+}
+
+.contact-message-error {
+  margin: 13px 13px 55px;
+  background-color: #ff6d6d;
+}
+
+.contact-message-error-p {
+  margin-top: 8px;
+  color: #fff;
+  text-align: center;
+}
+
+.nav-link {
+  text-align: center;
+}
+
+.footer-links {
+  margin-top: 7px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+
+.footer-link {
+  color: #fff;
+}
+
+.footer-link:hover {
+  color: #d8965a;
+}
+
+.privacy-paragraph {
+  margin-top: 0px;
+  margin-bottom: 39px;
+  padding-top: 9px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.h1-privacy-policy {
+  margin-top: 120px;
+  font-family: Lato, sans-serif;
+  color: #d8965a;
+  font-size: 25px;
+  text-align: center;
+}
+
+.footer-designed-by {
+  height: 37px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.footer-designed-by-text {
+  display: inline-block;
+  margin-top: 28px;
+  font-family: Varela, sans-serif;
+  color: #000;
+  font-size: 13.5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer-designed-by-text:hover {
+  text-decoration: underline;
+}
+
+.footer-designed-by-graphic {
+  display: block;
+  margin: 6px auto 18px;
+}
+
+.footer-designed-by-link-block {
+  margin-top: 0px;
+  padding: 0px 16px 9px;
+  font-family: Varela, sans-serif;
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-designed-by-link-block:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+.play-button {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  display: inline-block;
+  margin-top: 1440px;
+  font-family: 'Fontawesome webfont', sans-serif;
+  color: #d8965a;
+  font-size: 80px;
+  text-align: center;
+}
+
+html.w-mod-js *[data-ix="h1-underline"] {
+  width: 0px;
+}
+
+html.w-mod-js *[data-ix="about-pic"] {
+  opacity: 0;
+}
+
+html.w-mod-js *[data-ix="about-paragraph"] {
+  opacity: 0;
+}
+
+html.w-mod-js *[data-ix="services-column-1"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 250px);
+  -ms-transform: translate(0px, 250px);
+  transform: translate(0px, 250px);
+}
+
+html.w-mod-js *[data-ix="services-column-2"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 250px);
+  -ms-transform: translate(0px, 250px);
+  transform: translate(0px, 250px);
+}
+
+html.w-mod-js *[data-ix="contact-follow-and-connect-underline"] {
+  width: 0px;
+}
+
+@media (max-width: 991px) {
+  .nav-menu {
+    height: 257px;
+    padding-top: 14px;
+    background-color: #fff;
+  }
+  .main-nav-link {
+    margin-top: 5px;
+    margin-bottom: 18px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    border-style: none;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+  }
+  .main-nav-link:hover {
+    padding-top: 5px;
+    padding-bottom: 3px;
+    border-style: none;
+  }
+  .main-nav-link.w--current:hover {
+    border-style: none;
+  }
+  .home-section {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .custom-kitchen-countertops {
+    border-style: none;
+  }
+  .about-section {
+    border-style: none;
+  }
+  .contact-santana-matlock {
+    border-top-style: solid;
+    border-bottom-style: none;
+  }
+  .h2-section-heading {
+    margin-bottom: 11px;
+    font-size: 27px;
+    line-height: 33px;
+    letter-spacing: 1px;
+  }
+  .services-of-custom-concrete-products {
+    border-style: none;
+  }
+  .contact-section-container {
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+  .contact-field-message {
+    max-width: 394px;
+    min-width: 394px;
+  }
+  .contact-submit-button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .contact-form {
+    display: block;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .contact-link {
+    float: left;
+    clear: left;
+    font-size: 16px;
+  }
+  .contact-info-line-div {
+    margin-top: 16px;
+  }
+  .work-slider {
+    height: auto;
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+  .work-column {
+    margin-top: -3px;
+    margin-bottom: -1px;
+    padding: 0px;
+    text-align: center;
+  }
+  .contact-title-field {
+    width: 248px;
+    margin-bottom: 2px;
+    float: left;
+    clear: right;
+  }
+  .work-column-1 {
+    padding-left: 9px;
+  }
+  .work-image {
+    max-width: 235px;
+    min-width: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .mobile-menu-nav {
+    display: block;
+    margin-top: -25px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 6px;
+    float: none;
+    text-align: center;
+  }
+  .mobile-menu-nav.w--open {
+    background-color: transparent;
+  }
+  .mobile-menu-icon {
+    padding-top: 5px;
+    border-style: none;
+    border-color: #000;
+    color: #1f1f1f;
+  }
+  .work-container {
+    padding-top: 0px;
+  }
+  .contact-text {
+    margin-top: 27px;
+    clear: left;
+  }
+  .contact-field-image {
+    margin-left: -3px;
+  }
+  .home-div {
+    height: 684px;
+    margin-top: 0px;
+    background-position: 50% 111px;
+    background-size: 991px;
+  }
+  .abstrakt-concrete-media {
+    height: 538px;
+    margin-top: 0px;
+    border-bottom: 1px none #000;
+    background-position: 50% 0px;
+    background-size: auto;
+  }
+  .h1-black-underline {
+    margin-bottom: 18px;
+  }
+  .about-santana-matlock-pic {
+    width: 302px;
+    margin-right: 26px;
+    margin-left: 26px;
+  }
+  .news-paragraph {
+    margin-top: 62px;
+  }
+  .news-diy-logo {
+    display: block;
+    width: 233px;
+    margin: 33px auto -27px;
+  }
+  .services-icon {
+    width: 80px;
+    margin-top: 43px;
+  }
+  .services-list {
+    margin-right: 27px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+  }
+  .abstract-concrete-logo-home {
+    width: 373px;
+    padding-top: 290px;
+  }
+  .services-h3 {
+    font-size: 29px;
+  }
+  .news-p-links {
+    text-decoration: none;
+  }
+  .news-p-links:hover {
+    text-decoration: underline;
+  }
+  .services-icon-handshake {
+    width: 100px;
+    margin-top: 44px;
+  }
+  .contact-icon-link {
+    float: left;
+  }
+  .contact-follow-title {
+    margin-top: 93px;
+  }
+  .contact-link-icon {
+    width: 50px;
+    margin-right: 32px;
+    margin-bottom: 3px;
+  }
+  .contact-follow-mobile-div {
+    width: 80px;
+    margin-top: 0px;
+    float: left;
+  }
+  .contact-follow-mobile-link-icon-left {
+    float: left;
+  }
+  .contact-follow-mobile-icon {
+    width: 51px;
+    margin-bottom: 32px;
+  }
+  .contact-newsletter-form-div {
+    border-style: none;
+  }
+  .contact-follow-mobile-icon-link-right {
+    width: 59px;
+    float: left;
+  }
+  .contact-follow-mobile-div-animate {
+    margin-bottom: 24px;
+  }
+  .contact-newsletter-form-success-p {
+    margin-top: 19px;
+  }
+  .contact-newsletter-form-error-message-p {
+    font-size: 15px;
+  }
+  .slider-arrow {
+    font-size: 46px;
+  }
+  .footer-made-in-nashville-pic {
+    width: 107px;
+  }
+  .footer-h2-made-in-nashville {
+    font-size: 25px;
+  }
+  .contact-message-success {
+    margin-right: 11px;
+    font-family: Varela, sans-serif;
+  }
+  .contact-message-success-p {
+    font-size: 18px;
+  }
+  .contact-message-error {
+    margin-right: 4px;
+    margin-left: 5px;
+  }
+  .footer-designed-by-text {
+    margin-bottom: 4px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    height: 47px;
+    padding-top: 2px;
+  }
+  .logo-nav {
+    float: left;
+  }
+  .main-menu {
+    height: 42px;
+  }
+  .nav-menu {
+    height: 265px;
+    margin-top: -1px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+  }
+  .main-nav-link {
+    margin-top: 13px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+  }
+  .main-nav-link:active {
+    border-style: none;
+  }
+  .main-nav-link.w--current {
+    font-size: 16px;
+    letter-spacing: 1.5px;
+  }
+  .main-nav-link.w--current:hover {
+    padding-top: 5px;
+    padding-bottom: 3px;
+    border-style: none;
+  }
+  .main-nav-link.w--current:active {
+    padding-top: 5px;
+    padding-bottom: 3px;
+  }
+  .main-nav-link.w--current:focus {
+    padding-top: 5px;
+    padding-bottom: 3px;
+  }
+  .home-section {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .about-section {
+    padding-top: 0px;
+  }
+  .h2-section-heading {
+    margin-top: 39px;
+    margin-bottom: 23px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .contact-section-forms {
+    display: block;
+    margin-right: auto;
+    margin-left: -17px;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .contact-field-text {
+    width: 432px;
+    height: 42px;
+  }
+  .contact-field-message {
+    display: block;
+    max-width: 432px;
+    min-width: 432px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .contact-submit-button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .contact-form {
+    display: inline-block;
+    margin-top: -8px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    clear: both;
+    text-align: right;
+  }
+  .contact-column-2 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .contact-link {
+    display: block;
+    margin-top: 3px;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    font-size: 17px;
+    text-align: center;
+  }
+  .contact-info-line-div {
+    display: block;
+    margin: -7px auto 32px;
+  }
+  .work-slider {
+    height: auto;
+    margin-top: -1px;
+    margin-bottom: 22px;
+    padding-right: 19px;
+    padding-left: 19px;
+    border-style: none;
+    border-top-width: 2px;
+    border-top-color: #d8965a;
+    border-bottom-width: 2px;
+    border-bottom-color: #d8965a;
+  }
+  .contact-title-field {
+    display: block;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .work-column-1 {
+    margin-top: 26px;
+    padding-left: 0px;
+  }
+  .work-image {
+    max-width: 364px;
+  }
+  .mobile-menu-nav {
+    margin-top: -55px;
+    float: right;
+  }
+  .mobile-menu-icon {
+    margin-top: 3px;
+  }
+  .contact-text {
+    margin-top: 5px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .contact-field-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    clear: both;
+    text-align: center;
+  }
+  .mobile-logo-image-name {
+    display: block;
+    margin-top: 9px;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    clear: right;
+    text-align: right;
+  }
+  .mobile-logo-image-icon {
+    max-width: 87%;
+    margin-top: -47px;
+    margin-bottom: 13px;
+  }
+  .mobile-logo-name-div {
+    position: static;
+    top: 0px;
+    right: 0px;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    clear: both;
+    text-align: center;
+  }
+  .mobile-image-name {
+    margin-top: 3px;
+  }
+  .home-div {
+    height: 357px;
+    margin-top: 0px;
+    background-position: 50% -23px;
+    background-size: 769px;
+  }
+  .abstrakt-concrete-media {
+    height: 693px;
+    margin-top: 0px;
+    background-position: 0px 0px;
+  }
+  .about-santana-matlock-pic {
+    width: 200px;
+    margin-right: 18px;
+    margin-left: 18px;
+  }
+  .about-h1 {
+    margin-top: 24px;
+  }
+  .about-paragraph {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+  .news-paragraph {
+    margin-top: 63px;
+    margin-right: 23px;
+    margin-left: 23px;
+    padding-right: 18px;
+    padding-left: 18px;
+    font-size: 17px;
+  }
+  .news-diy-logo {
+    display: block;
+    width: 218px;
+    margin-top: 65px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .services-paragraph {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  .services-icon {
+    margin-top: 8px;
+    margin-bottom: 31px;
+  }
+  .services-list {
+    margin-right: 76px;
+    margin-left: 72px;
+    padding-left: 0px;
+  }
+  .abstract-concrete-logo-home {
+    display: block;
+    width: 248px;
+    margin-top: 0px;
+    padding-top: 115px;
+  }
+  .services-column {
+    margin-bottom: 41px;
+  }
+  .news-diy-logo-columns {
+    margin-top: -36px;
+  }
+  .news-diy-logo-link {
+    width: 339px;
+    margin-top: 370px;
+    clear: none;
+  }
+  .services-icon-handshake {
+    margin-top: 15px;
+    margin-bottom: 26px;
+  }
+  .contact-icon-link {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    text-align: center;
+  }
+  .footer-text-copyright {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 17px;
+    padding-bottom: 32px;
+    padding-left: 17px;
+    line-height: 19px;
+  }
+  .contact-follow-title {
+    display: block;
+    width: auto;
+    margin-top: 39px;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: none;
+    font-size: 18px;
+    text-align: center;
+  }
+  .contact-link-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .contact-link-icon {
+    display: block;
+    width: 43px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .contact-follow-mobile-div {
+    display: block;
+    width: 50%;
+    margin: 22px auto 17px;
+    float: left;
+  }
+  .contact-follow-mobile-link-icon-left {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 15px;
+    float: right;
+  }
+  .contact-follow-mobile-icon {
+    display: block;
+    width: 55px;
+    margin-right: auto;
+    margin-bottom: 16px;
+    margin-left: auto;
+  }
+  .contact-newsletter-submit-button {
+    margin-bottom: 27px;
+  }
+  .contact-newsletter-text-field {
+    display: block;
+    width: 434px;
+    height: 42px;
+    max-width: 432px;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-left: auto;
+  }
+  .contact-newsletter-h4 {
+    margin-top: 23px;
+    font-size: 17px;
+  }
+  .contact-folow-mobile-icon-div {
+    width: 50%;
+    float: left;
+  }
+  .contact-follow-mobile-icon-link-right {
+    width: auto;
+    padding-left: 15px;
+    float: left;
+  }
+  .contact-newsletter-form-success-p {
+    margin-top: 20px;
+  }
+  .contact-newsletter-form-error-message-p {
+    font-size: 16px;
+  }
+  .footer-made-in-nashville-pic {
+    width: 95px;
+    padding-top: 40px;
+  }
+  .footer-h2-made-in-nashville {
+    font-size: 24px;
+  }
+  .contact-form-div {
+    display: block;
+    width: 432px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .footer-designed-by-graphic {
+    width: 234px;
+  }
+}
+
+@media (max-width: 479px) {
+  .navbar {
+    height: 46px;
+    padding-top: 1px;
+  }
+  .nav-menu {
+    height: 274px;
+    margin-top: 0px;
+    padding-top: 6px;
+  }
+  .main-nav-link {
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+  }
+  .main-nav-link:active {
+    padding-top: 5px;
+    padding-bottom: 3px;
+    border-style: none;
+  }
+  .main-nav-link:focus {
+    border-style: none;
+  }
+  .main-nav-link.w--current {
+    margin-bottom: 21px;
+    font-size: 16px;
+  }
+  .main-nav-link.w--current:hover {
+    padding-top: 5px;
+    padding-bottom: 3px;
+    border-style: none;
+  }
+  .about-section {
+    margin-top: -11px;
+  }
+  .contact-santana-matlock {
+    margin-top: -1px;
+  }
+  .h2-section-heading {
+    margin-top: 48px;
+    margin-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 700;
+  }
+  .contact-field-title {
+    margin-bottom: 5px;
+    padding-left: 0px;
+  }
+  .contact-field-text {
+    width: 283px;
+    margin-bottom: 16px;
+  }
+  .contact-field-message {
+    width: 283px;
+    max-width: 283px;
+    min-width: 283px;
+  }
+  .contact-form {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .contact-column-2 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding-right: 0px;
+  }
+  .contact-link {
+    font-size: 17px;
+  }
+  .contact-row {
+    margin-top: 10px;
+  }
+  .work-image {
+    display: block;
+    max-width: 318px;
+    margin: -11px auto -4px;
+    padding: 0px 6px;
+  }
+  .work-image:hover {
+    border-color: #fff;
+  }
+  .work-container {
+    margin-bottom: -18px;
+  }
+  .contact-text {
+    font-size: 17px;
+  }
+  .contact-field-image {
+    width: 37px;
+  }
+  .mobile-logo-image-icon {
+    margin-top: -50px;
+  }
+  .mobile-image-name {
+    margin-top: 4px;
+  }
+  .home-div {
+    height: 296px;
+    margin-top: 0px;
+    background-position: 0px 43px;
+    background-size: 489px;
+  }
+  .abstrakt-concrete-media {
+    height: 658px;
+    margin-top: 0px;
+    background-position: 50% 0px;
+    background-attachment: fixed;
+  }
+  .h1-black-underline {
+    margin-bottom: 37px;
+  }
+  .about-santana-matlock-pic {
+    width: 247px;
+    margin-bottom: -7px;
+  }
+  .about-h1 {
+    margin-top: -19px;
+    font-size: 25px;
+  }
+  .about-h3 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .media-diy-network {
+    margin-top: -22px;
+  }
+  .about-paragraph {
+    margin-top: 14px;
+    margin-bottom: 0px;
+    padding-right: 21px;
+    padding-left: 21px;
+  }
+  .news-paragraph {
+    margin-top: -11px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 1px;
+    padding-right: 21px;
+    padding-left: 21px;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .news-diy-logo {
+    display: block;
+    width: 178px;
+    margin: 0px auto 48px;
+  }
+  .services-paragraph {
+    padding-right: 11px;
+    padding-left: 11px;
+  }
+  .services-icon {
+    width: 81px;
+    margin-top: 22px;
+    margin-bottom: 25px;
+  }
+  .services-list {
+    margin-right: 4px;
+    margin-left: 23px;
+  }
+  .abstract-concrete-logo-home {
+    width: 218px;
+    padding-top: 101px;
+  }
+  .services-h3 {
+    font-size: 25px;
+  }
+  .services-column {
+    margin-bottom: 36px;
+  }
+  .news-diy-logo-columns {
+    margin-top: 0px;
+  }
+  .about-paragraph-div {
+    margin-top: 43px;
+  }
+  .contact-icon-link {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+  }
+  .footer-text-copyright {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 10px;
+    padding-bottom: 29px;
+    padding-left: 10px;
+    font-size: 11px;
+    line-height: 15px;
+  }
+  .footer-text-copyright-link {
+    color: #fff;
+  }
+  .footer-text-copyright-link.w--current {
+    color: #fff;
+  }
+  .contact-follow-title {
+    width: auto;
+  }
+  .contact-follow-mobile-div {
+    margin-bottom: 12px;
+  }
+  .contact-newsletter-text-field {
+    width: 283px;
+    height: 43px;
+    max-width: none;
+  }
+  .contact-newsletter-form-success-p {
+    margin-top: 22px;
+    font-size: 15px;
+  }
+  .contact-newsletter-form-error-message {
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+  .contact-newsletter-form-error-message-p {
+    font-size: 14px;
+  }
+  .footer-made-in-nashville-pic {
+    width: 78px;
+    padding-top: 31px;
+  }
+  .footer-h2-made-in-nashville {
+    margin-bottom: 6px;
+    font-size: 22px;
+  }
+  .contact-form-div {
+    width: 270px;
+  }
+  .contact-message-error {
+    margin: -9px 2px 37px -2px;
+  }
+  .footer-designed-by-text {
+    margin-bottom: 6px;
+  }
+  .footer-designed-by-graphic {
+    width: 204px;
+  }
+}
+
+@font-face {
+  font-family: 'Fontawesome webfont';
+  src: url('../fonts/fontawesome-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
